@@ -15,15 +15,8 @@
 			$(document).ready(function() {
 			//Preloader
 			
-			$(window).on("load", function() {
-			preloaderFadeOutTime = 500;
-			function hidePreloader() {
-			var preloader = $('.spinner-wrapper');
-			preloader.fadeOut(preloaderFadeOutTime);
-			$('.sk-cube-grid').fadeOut(preloaderFadeOutTime);
-			console.log("hide it");
-			}
-			hidePreloader();
+			$(window).load(function() {
+				$('.spinner-wrapper').fadeOut(3000);
 			
 			});
 			});
