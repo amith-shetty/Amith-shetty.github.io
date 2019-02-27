@@ -14,19 +14,20 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script type="text/javascript">
 			$(document).ready(function() {
-			var isWindowLoaded = false;
-			Event.observe(window,'load',function(){ isWindowLoaded = true;
-							      });
-			if(isWindowLoaded){
-			$('.spinner-wrapper').fadeOut(3000);
+			function fade(){
+				$('.spinner-wrapper').fadeOut(3000);
 			}
-			else{
+				
+				
 			$(window).on('load',function() {
 
-				$('.spinner-wrapper').fadeOut(3000);
+				fadeout();
 			
 			});
-			}
+				
+				
+			window.setTimeout( fadeout(), 5000 );
+			
 			});
 </script>
 	</head>
