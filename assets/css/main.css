@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Fondamento&family=Varela&display=swap');
 @import url("fontawesome-all.min.css");
-
 /*
 	Astral by HTML5 UP
 	html5up.net | @ajlkn
@@ -70,6 +70,15 @@ input, select, textarea {
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
+}
+
+
+h2 {
+	font-family: 'Cardo', serif;
+}
+
+p {
+	font-family: 'Cardo', serif;
 }
 
 /* Row */
@@ -1371,17 +1380,20 @@ input, select, textarea {
 
 	h1 {
 		font-size: 2.4em;
-		letter-spacing: -0.015em;
+		letter-spacing: -0.040em;
+		font-family: 'Caveat', cursive;
 	}
 
 	h2 {
-		font-size: 1.8em;
+		font-size: 1.20em;
 		letter-spacing: -0.015em;
+		font-family: 'Caveat', cursive;
 	}
 
 	h3, h4, h5, h6 {
-		font-size: 1.25em;
+		font-size: 0.70em;
 		letter-spacing: -0.015em;
+		font-family: 'Varela', sans-serif;
 	}
 
 	@media screen and (max-width: 736px) {
