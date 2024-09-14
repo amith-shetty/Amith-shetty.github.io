@@ -1,0 +1,20 @@
+:root {
+    --neon-effect: 0 0 0 transparent,
+      0 0 20px rgb(128, 159, 255),
+      0 0 50px rgb(128, 159, 255),
+      0 0 200px rgb(128, 159, 255),
+      0 0 250px rgb(128, 159, 255),
+      0 0 300px rgb(128, 159, 255); 
+  }
+
+.Block {
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.075);
+    transition: border-color 0.2s ease;
+  }
+
+  .Glow {
+    border-color: rgb(128, 159, 255);
+    box-shadow: var(--neon-effect);
+  }
