@@ -1,14 +1,17 @@
 import './App.css';
-import Background from '../../frontend/src/background/Background';
-import Canvas from '../../frontend/src/canvas/Canvas'
+
+import Background from './layout/background/Background'; 
+import Foreground from './layout/foreground/Foreground';
+
 
 function App() {
   return (
     <div className="App">
       <Background/>
-      <Canvas>
-        <p>I am Amith</p>
-      </Canvas>
+      <Foreground>
+         <div>Hai</div>
+      </Foreground>
+
     </div>
   );
 }
